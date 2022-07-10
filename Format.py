@@ -1,0 +1,10 @@
+a = '{0} love {1} {a}'.format('I', 'python', a='forever')
+b = '{a} love {b} {c}'.format(a='I', b='python', c='forever')
+c = '{0} {{0}} {1}'.format('dark', 'grass', a='hoper', b='fsf')
+print(a, '\n', b)
+print(c)
+
+d = '%c %.2f %5.3g' % (108, 54.21564, 99.5201314)
+print(d, '\v')
+print(d, '\r\n')
+print(d, '\f')
